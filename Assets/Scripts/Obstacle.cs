@@ -1,29 +1,28 @@
 ﻿using System.Collections;
-using System.Security.Cryptography;
 using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    private Transform _fightBallCol;
-    private CircleCollider2D _ownTrigger;
-    private MC _mc;
+    [SerializeField] private Transform fightBallCol;
+    [SerializeField] private CircleCollider2D ownTrigger;
+    [SerializeField] private MainCharacter mainCharacter;
     private void Start()
     {
-        _fightBallCol = GameObject.Find("FightBall").GetComponent<Transform>();
-        _ownTrigger = GetComponentInChildren<CircleCollider2D>();
-        _mc = GameObject.Find("MC").GetComponent<MC>();
+        fightBallCol = GameObject.Find("FightBall").GetComponent<Transform>();
+        ownTrigger = GetComponentInChildren<CircleCollider2D>();
+        mainCharacter = GameObject.Find("MainCharacter").GetComponent<MainCharacter>();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         switch (other.gameObject.name)
         {
-            case "MC":
-                _mc.Score = 0;
+            case "MainCharacter":
+                mainCharacter.Score = 0;
                 Destroy(other.gameObject);
                 break;
             case "FightBall":
-                _ownTrigger.radius += _fightBallCol.transform.localScale.x;
+                ownTrigger.radius += fightBallCol.transform.localScale.x;
                 StartCoroutine(DefferedDestroy());
                 break;
         }

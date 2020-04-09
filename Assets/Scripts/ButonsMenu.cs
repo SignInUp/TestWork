@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+public class ButonsMenu : MonoBehaviour
 {
     public void OnClickStart()
     {

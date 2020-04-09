@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd267268-3ee4-435e-9c97-47d6ee17053b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameButtons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainCharacterMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameButtons.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MC.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainCharacter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MCMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MCMove.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainCharacterMove.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButonsMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButonsMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Throne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Throne.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Walls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Walls.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,28 +34,33 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Walls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FightBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObsctacleTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MCMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainCharacterMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Throne.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Web-Jump-2/Assets/Scripts/PlatformScripts/CreatingPlatform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelCreator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButonsMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Throne.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RightWall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Walls.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FightBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObsctacleTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MCMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MC.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FightBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MCMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainCharacterMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Throne.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Walls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButonsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameButtons.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +109,7 @@
       <workItem from="1586163824891" duration="10145000" />
       <workItem from="1586286158705" duration="3440000" />
       <workItem from="1586453310185" duration="156000" />
+      <workItem from="1586457293365" duration="5951000" />
     </task>
     <servers />
   </component>
@@ -99,6 +118,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="75" key="GridCell.Tab.0.bottom" timestamp="1586301381158">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -164,6 +194,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="75" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586301381159" />
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1586461745786">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586461745786" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1586172257840">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
