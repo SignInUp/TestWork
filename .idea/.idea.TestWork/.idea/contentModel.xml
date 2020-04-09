@@ -12,6 +12,7 @@
           <e p="LevelCreator.cs" t="Include" />
           <e p="MC.cs" t="Include" />
           <e p="MCMove.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
           <e p="ObsctacleTrigger.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
           <e p="Throne.cs" t="Include" />
